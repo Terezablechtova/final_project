@@ -1,33 +1,132 @@
-body {
-    background-color: rgb(145, 116, 62);  
+
+body.home-page{
+  
+  background-image: url(/img/mt_rainier.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
-.navbar {
-    min-height: 80px;
-    font-size: 150%;
-    margin-top: 30px;
-  }
+h1{ 
   
-  .navbar-brand {
-    padding: 0 15px;
-    height: 80px;
-    line-height: 80px;
-    font-size: 150%;
-    text-align: justify;
-    
-  }
+  text-align: center;
+  color: white;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; font-size: 100px; font-style: normal; 
+  font-variant: normal; font-weight: 500; line-height: 80px }
+h2{
   
-  .navbar-toggle {
-    /* (80px - button height 34px) / 2 = 23px */
-    margin-top: 23px;
-    padding: 9px 10px !important;
-  }
-  
-  @media (min-width: 768px) {
-    .navbar-nav > li > a {
-      /* (80px - line-height of 27px) / 2 = 26.5px */
-      padding-top: 26.5px;
-      padding-bottom: 26.5px;
-      line-height: 27px;
+  margin-top: 25px;
+  text-align: center;
+  color: #888688;
+  font-family: "Century Gothic";
+  font-size: 50px
+}           
+
+.color-me{
+  margin-top: 390px;
+  color: #353333;
+  font-family: "Century Gothic", sans-serif !important;
+  font-weight: 700;
+  font-size: 19px;
+}
+
+
+
+a:hover{
+   color: #888688;
+}
+
+footer {
+  margin-top: 100px;
+}
+
+footer li{
+  display: table;
+  margin: 0px auto 0px auto;
+  align-items: center;
+  justify-content: center;
+}
+
+h1.about-page{
+  margin-left: 15px;
+  margin-top: 120px;
+  text-align: left;
+  font-size: 50px;
+  font-family: "Century Gothic",sans-serif !important;
+  color: #888688;
+  line-height : 50px;
+}
+p{
+  margin-top: 70px;
+  margin-left: 15px;
+  text-align: left;
+  color: rgb(39, 38, 38);
+  font-weight: 100;
+  font-family: "Arial"; font-size: 20px; font-style: normal; font-variant:normal; font-weight: 500; 
+  line-height: 35px } 
+
+a.about-page{
+  color: #888688;
+  margin-top: 50px;
+  font-family: "Century Gothic", sans-serif !important;
+  font-weight: 700;
+  font-size: 17.5px;
+}
+
+
+ul#horizontal-list-icons {
+    margin-left:550px;
+    list-style: none;
+    margin-top: 80px;
+     }
+
+
+ul#horizontal-list-icons li {
+      justify-content: right;
+      display: inline;
     }
-  }
+   
+img.about-page{
+      max-width: 100%;
+    }   
+
+body.landscape-page{
+  background-color: white;
+}
+a.landscape-page{
+  color: rgb(216, 212, 212);
+  margin-top: 15px;
+  font-family: "Century Gothic", sans-serif !important;
+  font-weight: 700;
+  font-size: 16px
+  
+}
+h2.landscape-page{
+  font-size: 25px;
+  color: #706f6f;
+  font-family: "Century Gothic", sans-serif !important;
+  text-align: center;
+  margin-top: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  
+}
+
+h2.landscape-page.carousel{
+  font-size: 25px;
+  color: #706f6f;
+  font-family: "Century Gothic", sans-serif !important;
+  text-align: center;
+  margin-top: 60px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+h5.image-caption-street{
+  text-align: center;
+  margin-top: 5px;
+}
+body.landscape-page{
+  background-color: white;
+}
+.container{
+  background-color: white;
+}

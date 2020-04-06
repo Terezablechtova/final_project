@@ -1,9 +1,5 @@
-
-
-const home = (req, res) => {
-res.render('home')
-
-//res.send('Hello from entry point module!');
+const home = (req,res)=> {
+    res.render('home')
 }
-module.exports = home;
 
+module.exports = home;

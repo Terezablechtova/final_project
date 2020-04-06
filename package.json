@@ -1,26 +1,18 @@
 {
-  "name": "shopping-cart",
+  "name": "roman_nikau",
   "version": "1.0.0",
-  "description": "With that boilerplate you should be able to run simple ecommerce platform.",
+  "description": "Photography website",
   "main": "index.js",
   "dependencies": {
+    "basiclightbox": "^5.0.3",
     "express": "^4.17.1",
     "mongoose": "^5.9.6",
     "nodemon": "^2.0.2",
-    "pug": "^2.0.4"
+    "pug": "^2.0.4",
+    "resize-optimize-images": "^1.1.0"
   },
   "devDependencies": {},
   "scripts": {
     "start": "nodemon"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Terezablechtova/shopping-cart.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Terezablechtova/shopping-cart/issues"
-  },
-  "homepage": "https://github.com/Terezablechtova/shopping-cart#readme"
+  }
 }

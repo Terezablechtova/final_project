@@ -1,0 +1,112 @@
+
+html
+    head
+      meta(charset='utf-8')
+      meta(name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no')
+      link(rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css' integrity='sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh' crossorigin='anonymous')
+      link(rel="stylesheet", href="css/styles.css")
+
+      
+    title roman nikau
+    link(rel="icon", href="/img/logorh.jpg")
+    body.landscape-page
+      div.landscape-page.container
+        
+        div
+                ul.nav.justify-content-center
+                        li.nav-item
+                        a.nav-link(href='/', class= 'landscape-page') HOME
+                        li.nav-item
+                        a.nav-link(href='/about', class= 'landscape-page') ABOUT
+                        li.nav-item
+                        a.nav-link(href='/street_photography', class= 'landscape-page') STREET PHOTOGRAPHY
+                        li.nav-item
+                        a.nav-link(href='/portrait', class= 'landscape-page') PORTRAIT
+                        li.nav-item
+                        a.nav-link(href='https://romannikau.picfair.com',class= 'landscape-page', target = '_blank') SHOP
+        
+        
+        h2.landscape-page LANDSCAPES OF NEW ZEALAND
+        div.row
+                div#carouselExampleFade_1(class="carousel slide carousel-fade" data-ride="carousel")
+                        div.carousel-inner
+                        div.carousel-item.active
+                                img.d-block.w-100(src='/img/mt_cook.jpg' alt='Mt Cook', class = "carousel_imgs")
+                                div.carousel-caption.d-none.d-md-block
+                                 h5.image-caption Mt Cook National Park
+                        div.carousel-item
+                                img.d-block.w-100(src='/img/tongariro.jpg' alt='Tongariro',  class = "carousel_imgs")
+                                div.carousel-caption.d-none.d-md-block  
+                                 h5 Tongariro National Park
+                        div.carousel-item
+                                img.d-block.w-100(src='/img/lake_tekapo.jpg' alt='Lake Tekapo', class = "carousel_imgs")
+                                div.carousel-caption.d-none.d-md-block
+                                 h5 Church of the Good Shepherd, Lake Tekapo
+                        div.carousel-item
+                                img.d-block.w-100(src='/img/tekapo_lake.jpg' alt='Lake Tekapo', class = "carousel_imgs")
+                                div.carousel-caption.d-none.d-md-block
+                                 h5 Lake Tekapo
+                        a.carousel-control-prev(href='#carouselExampleFade_1' role="button" data-slide="prev")
+                                span.carousel-control-prev-icon(aria-hidden='true')
+                                span.sr-only Previous
+                        a.carousel-control-next(href="#carouselExampleFade_1" role="button" data-slide="next")
+                                span.carousel-control-next-icon(aria-hidden='true')
+                                span.sr-only Next
+        
+        h2.landscape-page.carousel LANDSCAPES OF CANADA
+        div.row
+                div#carouselExampleFade_2(class="carousel slide carousel-fade" data-ride="carousel")
+                        div.carousel-inner
+                        div.carousel-item.active
+                                img.d-block.w-100(src='/img/canada1.jpg' alt='West Coast BC', class = "carousel_imgs")
+                                div.carousel-caption.d-none.d-md-block
+                                 h5 Whytecliff Park, West Vancouver
+                        div.carousel-item
+                                img.d-block.w-100(src='/img/canada2.jpg' alt='West Coast BC',  class = "carousel_imgs")
+                                div.carousel-caption.d-none.d-md-block  
+                                 h5 Whytecliff Park, West Vancouver
+                        div.carousel-item
+                                img.d-block.w-100(src='/img/canada3.jpg' alt='Rolley Lake Provincial Park', class = "carousel_imgs")
+                                div.carousel-caption.d-none.d-md-block   
+                                  Rolley Lake Provincial Park         
+                                        
+                                
+                        a.carousel-control-prev(href='#carouselExampleFade_2' role="button" data-slide="prev")
+                                span.carousel-control-prev-icon(aria-hidden='true')
+                                span.sr-only Previous
+                        a.carousel-control-next(href="#carouselExampleFade_2" role="button" data-slide="next")
+                                span.carousel-control-next-icon(aria-hidden='true')
+                                span.sr-only Next
+
+        h2.landscape-page.carousel LANDSCAPES OF UNITED STATES
+        div.row
+                div#carouselExampleFade(class="carousel slide carousel-fade" data-ride="carousel")
+                        div.carousel-inner
+                        div.carousel-item.active
+                                img.d-block.w-100(src='/img/monument_valley.jpg' alt='Monument Valley', class = "carousel_imgs")
+                                div.carousel-caption.d-none.d-md-block
+                                 h5 Monument Valley
+                        div.carousel-item
+                                img.d-block.w-100(src='/img/mt_rangier5.jpg' alt='Mount Rainier', class = "carousel_imgs")
+                                div.carousel-caption.d-none.d-md-block            
+                                 h5 Mount Rainier  
+                                
+                        a.carousel-control-prev(href='#carouselExampleFade' role="button" data-slide="prev")
+                                span.carousel-control-prev-icon(aria-hidden='true')
+                                span.sr-only Previous
+                        a.carousel-control-next(href="#carouselExampleFade" role="button" data-slide="next")
+                                span.carousel-control-next-icon(aria-hidden='true')
+                                span.sr-only Next
+
+        
+
+<script src="./dist/basicLightbox.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+                        
+
+            
+                
+    
